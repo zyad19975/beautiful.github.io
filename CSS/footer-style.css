@@ -1,6 +1,6 @@
 footer {
-  height: 100%;
-  overflow: hidden;
+  height: auto;
+  overflow: scroll;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -30,6 +30,16 @@ footer .foot-left p {
   z-index: 100;
   padding: 2rem;
 }
+footer .foot-right {
+  width: 50%;
+  z-index: 100;
+}
 iframe {
   padding: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  footer .foot-left {
+    width: 200%;
+  }
 }

@@ -13,15 +13,15 @@ function initComparisons() {
     w = img.offsetWidth;
     h = img.offsetHeight;
     /*set the width of the img element to 50%:*/
-    img.style.width = (w / 2) + "px";
+    img.style.width = "20rem";
     /*create slider:*/
     slider = document.createElement("DIV");
     slider.setAttribute("class", "img-comp-slider");
     /*insert slider*/
     img.parentElement.insertBefore(slider, img);
     /*position the slider in the middle:*/
-    slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
-    slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
+    slider.style.top = "6rem";
+    slider.style.left = "10rem";
     /*execute a function when the mouse button is pressed:*/
     slider.addEventListener("mousedown", slideReady);
     /*and another function when the mouse button is released:*/
