@@ -1,0 +1,35 @@
+footer {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+  background-color: white;
+  font-size: 1rem;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .foot-left {
+  width: 50%;
+  z-index: 100;
+}
+footer .foot-left img {
+  object-fit: contain;
+  width: 7rem;
+  margin: 2rem;
+  z-index: 100;
+}
+footer .foot-left p {
+  color: #9d1e63;
+  font-family: monospace;
+  font-size: 2rem;
+  z-index: 100;
+  padding: 2rem;
+}
+iframe {
+  padding: 2rem;
+}
