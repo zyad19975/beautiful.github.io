@@ -880,10 +880,11 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
+  padding-top: 0px;
 }
 
 .portfolio-details .portfolio-details-slider img {
+  object-fit: fill;
   width: 100%;
 }
 
